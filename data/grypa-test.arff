@@ -1,0 +1,11 @@
+@relation grypa
+
+@attribute dreszcze {nie,tak}
+@attribute katar {nie,tak}
+@attribute bol_glowy {nie,sredni,duzy}
+@attribute goraczka {nie,tak}
+@attribute class_grypa {nie,tak}
+
+
+@data
+nie,tak,nie,tak,tak
