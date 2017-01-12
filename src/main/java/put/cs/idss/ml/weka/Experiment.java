@@ -1,30 +1,39 @@
 package put.cs.idss.ml.weka;
 
+import weka.classifiers.Classifier;
+import weka.core.Instance;
+import weka.core.Instances;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.Random;
-
-import weka.classifiers.Classifier;
-import weka.classifiers.Evaluation;
-import weka.core.Instance;
-import weka.core.Instances;
 
 public class Experiment {
 
+
+	public static Instances LoadData(String path) throws IOException {
+		BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
+		Instances dataset = new Instances(bufferedReader);
+		bufferedReader.close();
+
+		return dataset;
+	}
+
+	public static void ConfigureClassIndex(Instances data){
+		if(data.classIndex() == -1)
+			data.setClassIndex(data.numAttributes() - 1);
+	}
+
 	public static void runExperiment(Classifier classifier, String trainSetPath,
 			String testSetPath) throws Exception {
-		BufferedReader readerTrain = new BufferedReader(new FileReader(trainSetPath));
-		Instances trainSet = new Instances(readerTrain);
-		readerTrain.close();
+
+		Instances trainSet = LoadData(trainSetPath);
+
+		Instances testSet = LoadData(testSetPath);
 		
-		BufferedReader readerTest = new BufferedReader(new FileReader(testSetPath));
-		Instances testSet = new Instances(readerTest);
-		readerTest.close();
-		
-		if (trainSet.classIndex() == -1) trainSet.setClassIndex(trainSet.numAttributes() - 1);
-		if (testSet.classIndex() == -1) testSet.setClassIndex(testSet.numAttributes() - 1);
+		ConfigureClassIndex(trainSet);
+		ConfigureClassIndex(testSet);
 		
 		System.out.println("Data loaded.");
 		
