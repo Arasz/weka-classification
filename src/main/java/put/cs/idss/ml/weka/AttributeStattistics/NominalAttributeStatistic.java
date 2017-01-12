@@ -1,4 +1,4 @@
-package put.cs.idss.ml.weka;
+package put.cs.idss.ml.weka.AttributeStattistics;
 
 import weka.core.Attribute;
 import weka.core.AttributeStats;
@@ -10,13 +10,17 @@ import java.util.stream.IntStream;
 /**
  * Created by Rafal on 12.01.2017.
  */
-public class ClassStatistics implements AttributeStatistics {
+public class NominalAttributeStatistic implements AttributeStatistics {
+
+    private double classValue;
     private Attribute attribute;
     private Instances instances;
 
     private double[] statistics;
 
-    public ClassStatistics( Attribute attribute, Instances instances){
+    public NominalAttributeStatistic(int classValue, Attribute attribute, Instances instances){
+        this.classValue = classValue;
+
         this.attribute = attribute;
         this.instances = instances;
     }
@@ -27,6 +31,11 @@ public class ClassStatistics implements AttributeStatistics {
         int distinctValuesCount = attributeStats.distinctCount;
 
         double[] attributeValues = instances.attributeToDoubleArray(attribute.index());
+        double[] classValues = instances.attributeToDoubleArray(instances.classIndex());
+
+        double classValueCount = Arrays.stream(classValues)
+                .filter(value -> value == classValue)
+                .count();
 
         double[] distinctValues = Arrays.stream(attributeValues)
                 .distinct()
@@ -37,14 +46,18 @@ public class ClassStatistics implements AttributeStatistics {
 
         for (int i = 0; i< distinctValuesCount ; i++){
             int finalI = i;
-            statistics[i] = (double) IntStream.range(0, attributeValues.length)
+            statistics[i] = IntStream.range(0, classValues.length)
+                    .filter(index -> classValues[index] == classValue)
                     .filter(index -> attributeValues[index] == distinctValues[finalI])
-                    .count() / allValuesCount;
+                    .count() / classValueCount;
         }
     }
 
+
     public double[] getStatistics()
     {
+        if(statistics == null)
+            calculate();
         return statistics;
     }
 }

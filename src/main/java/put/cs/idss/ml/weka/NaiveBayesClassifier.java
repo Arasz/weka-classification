@@ -1,5 +1,9 @@
 package put.cs.idss.ml.weka;
 
+import put.cs.idss.ml.weka.AttributeStattistics.AttributeStatistics;
+import put.cs.idss.ml.weka.AttributeStattistics.ClassStatistics;
+import put.cs.idss.ml.weka.AttributeStattistics.NominalAttributeStatistic;
+import put.cs.idss.ml.weka.AttributeStattistics.NumericAttributeStatistics;
 import weka.classifiers.Classifier;
 import weka.core.Attribute;
 import weka.core.Instance;

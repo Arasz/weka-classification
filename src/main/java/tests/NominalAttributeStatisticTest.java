@@ -3,7 +3,7 @@ package tests;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import put.cs.idss.ml.weka.Experiment;
-import put.cs.idss.ml.weka.NominalAttributeStatistic;
+import put.cs.idss.ml.weka.AttributeStattistics.NominalAttributeStatistic;
 import weka.core.Attribute;
 import weka.core.Instances;
 
