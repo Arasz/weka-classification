@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45714cc9-c0c5-4dde-8547-6d7467843310" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/ClassStatistics.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/put/cs/idss/ml/weka/Experiment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/put/cs/idss/ml/weka/NaiveBayesClassifier.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test-numeric.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/NumericAttributeStatisticsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weka-classification.iml" afterPath="$PROJECT_DIR$/weka-classification.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java" afterPath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java" afterPath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java" />
     </list>
     <ignored path="weka-clasification.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +31,82 @@
       <file leaf-file-name="Experiment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="-170">
+              <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumericAttributeStatisticsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tests/NumericAttributeStatisticsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="791">
+              <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumericAttributeStatistics.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-numeric.arff" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/test-numeric.arff">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spambase-train.arff" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/spambase-train.arff">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-612">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spambase-test.arff" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/spambase-test.arff">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grypa-test.arff" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/grypa-test.arff">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grypa-train.arff" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/grypa-train.arff">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -44,20 +115,8 @@
       <file leaf-file-name="NaiveBayesClassifier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NaiveBayesClassifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="102">
               <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassStatistics.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/ClassStatistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,74 +127,8 @@
       <file leaf-file-name="NominalAttributeStatisticTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tests/NominalAttributeStatisticTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grypa-train.arff" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/grypa-train.arff">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NominalAttributeStatistic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NominalAttributeStatistic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instances.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/weka.jar!/weka/core/Instances.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14127">
-              <caret line="899" column="0" lean-forward="false" selection-start-line="899" selection-start-column="0" selection-end-line="899" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Attribute.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/weka.jar!/weka/core/Attribute.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
-              <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-              <folding>
-                <element signature="e#8061#8062#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumericAttributeStatistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="536">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,12 +169,14 @@
         <option value="$PROJECT_DIR$/src/put/cs/idss/ml/weka/NominalAttributeStatistic.java" />
         <option value="$PROJECT_DIR$/src/tests/NominalAttributeStatisticTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/NominalAttributeStatisticTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NaiveBayesClassifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NominalAttributeStatistic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/ClassStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java" />
+        <option value="$PROJECT_DIR$/data/test-numeric.arff" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/NumericAttributeStatisticsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java" />
       </list>
     </option>
   </component>
@@ -425,6 +420,58 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="weka-classification" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumericAttributeStatisticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="weka-classification" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NumericAttributeStatisticsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="weka-classification" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NumericAttributeStatisticsTest" />
+      <option name="METHOD_NAME" value="CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -745,16 +792,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.Experiment" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Experiment" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -777,44 +828,44 @@
       <workItem from="1481288956814" duration="9000" />
       <workItem from="1484220575308" duration="3483000" />
       <workItem from="1484224276257" duration="6143000" />
-      <workItem from="1484230444312" duration="8744000" />
+      <workItem from="1484230444312" duration="10879000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NominalAttributeStatisticTest - 2017.01.12 at 16h 30m 18s.xml">
-      <configuration name="NominalAttributeStatisticTest" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest - 2017.01.12 at 18h 07m 48s.xml">
+      <configuration name="NumericAttributeStatisticsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest - 2017.01.12 at 16h 33m 23s.xml">
-      <configuration name="NominalAttributeStatisticTest" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest - 2017.01.12 at 18h 22m 29s.xml">
+      <configuration name="NumericAttributeStatisticsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest - 2017.01.12 at 16h 33m 57s.xml">
-      <configuration name="NominalAttributeStatisticTest" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest - 2017.01.12 at 18h 24m 33s.xml">
+      <configuration name="NumericAttributeStatisticsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest - 2017.01.12 at 16h 36m 53s.xml">
-      <configuration name="NominalAttributeStatisticTest" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest - 2017.01.12 at 18h 25m 20s.xml">
+      <configuration name="NumericAttributeStatisticsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest - 2017.01.12 at 16h 37m 16s.xml">
-      <configuration name="NominalAttributeStatisticTest" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest - 2017.01.12 at 18h 25m 30s.xml">
+      <configuration name="NumericAttributeStatisticsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest_CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics - 2017.01.12 at 15h 20m 58s.xml">
-      <configuration name="NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest - 2017.01.12 at 18h 26m 54s.xml">
+      <configuration name="NumericAttributeStatisticsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest_CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics - 2017.01.12 at 15h 22m 09s.xml">
-      <configuration name="NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest_CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated - 2017.01.12 at 18h 20m 45s.xml">
+      <configuration name="NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest_CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics - 2017.01.12 at 15h 23m 01s.xml">
-      <configuration name="NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest_CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated - 2017.01.12 at 18h 21m 12s.xml">
+      <configuration name="NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest_CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics - 2017.01.12 at 16h 32m 10s.xml">
-      <configuration name="NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest_CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated - 2017.01.12 at 18h 21m 39s.xml">
+      <configuration name="NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NominalAttributeStatisticTest_CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics - 2017.01.12 at 16h 32m 44s.xml">
-      <configuration name="NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" configurationId="JUnit" />
+    <history-entry file="NumericAttributeStatisticsTest_CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated - 2017.01.12 at 18h 30m 29s.xml">
+      <configuration name="NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18379000" />
+    <option name="totallyTimeSpent" value="20514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -910,8 +961,14 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1042,14 +1099,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/put/cs/idss/ml/weka/DataStatistics.java" />
-    <entry file="file://$PROJECT_DIR$/data/grypa-test.arff">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/weka.jar!/weka/core/Instances.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14127">
@@ -1084,32 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/grypa-train.arff">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/NominalAttributeStatisticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NominalAttributeStatistic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -1120,10 +1143,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/ClassStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="383">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1132,7 +1155,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NaiveBayesClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="102">
           <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1140,10 +1163,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/ClassStatistics.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/NominalAttributeStatisticTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="536">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/grypa-test.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/grypa-train.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/spambase-test.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/spambase-train.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test-numeric.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/NumericAttributeStatisticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

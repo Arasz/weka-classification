@@ -39,7 +39,7 @@ public class NumericAttributeStatistics implements AttributeStatistics {
 
         statistics[meanParameter] = calculateMean(attributeValues, indices);
 
-        statistics[stdParameter] = calculateStd(classValues, indices, statistics[meanParameter]);
+        statistics[stdParameter] = calculateStd(attributeValues, indices, statistics[meanParameter]);
 
     }
 
@@ -62,8 +62,7 @@ public class NumericAttributeStatistics implements AttributeStatistics {
         return Math.sqrt(
                 Arrays.stream(indices)
                 .mapToDouble(index -> Math.pow(attributeValues[index] - mean, 2))
-                .average()
-                .getAsDouble());
+                .sum()/((double) indices.length-1));
     }
 
 

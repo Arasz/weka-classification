@@ -12,6 +12,10 @@ import java.util.Arrays;
 public class Experiment {
 
 
+	public static String trainSetPath = "data/spambase-train.arff";
+	public static String testSetPath = "data/spambase-test.arff";
+
+
 	public static Instances LoadData(String path) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new FileReader(path));
 		Instances dataset = new Instances(bufferedReader);
@@ -57,7 +61,7 @@ public class Experiment {
 
 	public static void main(String[] args) throws Exception {
 		NaiveBayesClassifier hc = new NaiveBayesClassifier();
-		runExperiment(hc, "data/spambase-train.arff", "data/spambase-test.arff");
+		runExperiment(hc, trainSetPath, testSetPath);
 	}
 
 }
