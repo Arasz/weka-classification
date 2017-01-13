@@ -47,7 +47,7 @@ public class CompareClassifiers {
         return new Instances(instances, 0, partSize);
     }
 
-    private static Random randomGenerator = new Random();
+    private static Random randomGenerator = new Random(1);
 
     private static Instances randomize(Instances instances){
         instances.randomize(randomGenerator);
@@ -148,7 +148,7 @@ public class CompareClassifiers {
         ArrayList<Classifier> classifiers = createClassifiersToCompare();
 
 
-        compareForDifferentSize(IntStream.range(1,100).mapToDouble(value -> (double)value/100d).toArray(), new String[]{"credit-a-mod", "credit-a", "spambase", "badges2"}, classifiers);
+        compareForDifferentSize(IntStream.range(1,101).mapToDouble(value -> (double)value/100d).toArray(), new String[]{"credit-a-mod", "credit-a", "spambase", "badges2"}, classifiers);
 
     }
 
