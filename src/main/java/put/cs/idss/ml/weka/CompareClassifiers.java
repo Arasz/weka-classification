@@ -16,9 +16,6 @@ import java.nio.file.Files;
 import java.util.*;
 import java.util.stream.IntStream;
 
-/**
- * Author: NOT ME
- */
 public class CompareClassifiers {
 
     public CompareClassifiers() {

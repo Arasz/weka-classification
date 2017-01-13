@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45714cc9-c0c5-4dde-8547-6d7467843310" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/Logistic.txt" afterPath="$PROJECT_DIR$/reports/Logistic.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/NaiveBayes.txt" afterPath="$PROJECT_DIR$/reports/NaiveBayes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java" afterPath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java" />
     </list>
     <ignored path="weka-clasification.iws" />
@@ -42,14 +39,14 @@
       <file leaf-file-name="CompareClassifiers.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#5388#5389#0" expanded="true" />
-                <element signature="e#5448#5449#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#5362#5363#0" expanded="true" />
+                <element signature="e#5422#5423#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -335,7 +332,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/ZeroOneLossError.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#375#376#0" expanded="true" />
@@ -1090,7 +1087,7 @@
       <workItem from="1481288956814" duration="9000" />
       <workItem from="1484220575308" duration="3483000" />
       <workItem from="1484224276257" duration="6143000" />
-      <workItem from="1484230444312" duration="32610000" />
+      <workItem from="1484230444312" duration="32789000" />
     </task>
     <servers />
   </component>
@@ -1127,7 +1124,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42245000" />
+    <option name="totallyTimeSpent" value="42424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1189,7 +1186,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java</url>
-          <line>29</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -1512,7 +1509,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/ZeroOneLossError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#375#376#0" expanded="true" />
@@ -1785,14 +1782,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#5388#5389#0" expanded="true" />
-            <element signature="e#5448#5449#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#5362#5363#0" expanded="true" />
+            <element signature="e#5422#5423#0" expanded="true" />
           </folding>
         </state>
       </provider>
