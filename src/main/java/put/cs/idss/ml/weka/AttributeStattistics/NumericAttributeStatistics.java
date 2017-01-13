@@ -1,4 +1,4 @@
-package put.cs.idss.ml.weka;
+package put.cs.idss.ml.weka.AttributeStattistics;
 
 import weka.core.Attribute;
 import weka.core.Instances;

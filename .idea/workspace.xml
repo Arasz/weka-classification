@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45714cc9-c0c5-4dde-8547-6d7467843310" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test-numeric.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/NumericAttributeStatisticsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java" afterPath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java" afterPath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/Logistic.txt" afterPath="$PROJECT_DIR$/reports/Logistic.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/NaiveBayes.txt" afterPath="$PROJECT_DIR$/reports/NaiveBayes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java" afterPath="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java" />
     </list>
     <ignored path="weka-clasification.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,95 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Experiment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumericAttributeStatisticsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/NumericAttributeStatisticsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
-              <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumericAttributeStatistics.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-numeric.arff" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/test-numeric.arff">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spambase-train.arff" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/spambase-train.arff">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spambase-test.arff" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/spambase-test.arff">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grypa-test.arff" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/grypa-test.arff">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grypa-train.arff" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/grypa-train.arff">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NaiveBayesClassifier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NaiveBayesClassifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="54" />
+            <state relative-caret-position="-348">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,13 +39,307 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NominalAttributeStatisticTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/NominalAttributeStatisticTest.java">
+      <file leaf-file-name="CompareClassifiers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="366">
+              <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#5388#5389#0" expanded="true" />
+                <element signature="e#5448#5449#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassifiersComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Comparator/ClassifiersComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleTimer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Comparator/SimpleTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding>
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LearningErrorFunctionBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/LearningErrorFunctionBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="43" column="75" lean-forward="false" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NaiveBayes.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reports/NaiveBayes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="735" column="17" lean-forward="false" selection-start-line="735" selection-start-column="11" selection-end-line="735" selection-end-column="17" />
+              <caret line="736" column="17" lean-forward="false" selection-start-line="736" selection-start-column="11" selection-end-line="736" selection-end-column="17" />
+              <caret line="737" column="17" lean-forward="false" selection-start-line="737" selection-start-column="11" selection-end-line="737" selection-end-column="17" />
+              <caret line="738" column="17" lean-forward="false" selection-start-line="738" selection-start-column="11" selection-end-line="738" selection-end-column="17" />
+              <caret line="739" column="17" lean-forward="false" selection-start-line="739" selection-start-column="11" selection-end-line="739" selection-end-column="17" />
+              <caret line="740" column="17" lean-forward="false" selection-start-line="740" selection-start-column="11" selection-end-line="740" selection-end-column="17" />
+              <caret line="741" column="17" lean-forward="false" selection-start-line="741" selection-start-column="11" selection-end-line="741" selection-end-column="17" />
+              <caret line="742" column="17" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="17" />
+              <caret line="743" column="17" lean-forward="false" selection-start-line="743" selection-start-column="11" selection-end-line="743" selection-end-column="17" />
+              <caret line="744" column="17" lean-forward="false" selection-start-line="744" selection-start-column="11" selection-end-line="744" selection-end-column="17" />
+              <caret line="745" column="17" lean-forward="false" selection-start-line="745" selection-start-column="11" selection-end-line="745" selection-end-column="17" />
+              <caret line="746" column="17" lean-forward="false" selection-start-line="746" selection-start-column="11" selection-end-line="746" selection-end-column="17" />
+              <caret line="747" column="17" lean-forward="false" selection-start-line="747" selection-start-column="11" selection-end-line="747" selection-end-column="17" />
+              <caret line="748" column="17" lean-forward="false" selection-start-line="748" selection-start-column="11" selection-end-line="748" selection-end-column="17" />
+              <caret line="749" column="17" lean-forward="false" selection-start-line="749" selection-start-column="11" selection-end-line="749" selection-end-column="17" />
+              <caret line="750" column="17" lean-forward="false" selection-start-line="750" selection-start-column="11" selection-end-line="750" selection-end-column="17" />
+              <caret line="751" column="17" lean-forward="false" selection-start-line="751" selection-start-column="11" selection-end-line="751" selection-end-column="17" />
+              <caret line="752" column="17" lean-forward="false" selection-start-line="752" selection-start-column="11" selection-end-line="752" selection-end-column="17" />
+              <caret line="753" column="17" lean-forward="false" selection-start-line="753" selection-start-column="11" selection-end-line="753" selection-end-column="17" />
+              <caret line="754" column="17" lean-forward="false" selection-start-line="754" selection-start-column="11" selection-end-line="754" selection-end-column="17" />
+              <caret line="755" column="17" lean-forward="false" selection-start-line="755" selection-start-column="11" selection-end-line="755" selection-end-column="17" />
+              <caret line="756" column="17" lean-forward="false" selection-start-line="756" selection-start-column="11" selection-end-line="756" selection-end-column="17" />
+              <caret line="757" column="17" lean-forward="false" selection-start-line="757" selection-start-column="11" selection-end-line="757" selection-end-column="17" />
+              <caret line="758" column="17" lean-forward="false" selection-start-line="758" selection-start-column="11" selection-end-line="758" selection-end-column="17" />
+              <caret line="759" column="17" lean-forward="false" selection-start-line="759" selection-start-column="11" selection-end-line="759" selection-end-column="17" />
+              <caret line="760" column="17" lean-forward="false" selection-start-line="760" selection-start-column="11" selection-end-line="760" selection-end-column="17" />
+              <caret line="761" column="17" lean-forward="false" selection-start-line="761" selection-start-column="11" selection-end-line="761" selection-end-column="17" />
+              <caret line="762" column="17" lean-forward="false" selection-start-line="762" selection-start-column="11" selection-end-line="762" selection-end-column="17" />
+              <caret line="763" column="17" lean-forward="false" selection-start-line="763" selection-start-column="11" selection-end-line="763" selection-end-column="17" />
+              <caret line="764" column="17" lean-forward="false" selection-start-line="764" selection-start-column="11" selection-end-line="764" selection-end-column="17" />
+              <caret line="765" column="17" lean-forward="false" selection-start-line="765" selection-start-column="11" selection-end-line="765" selection-end-column="17" />
+              <caret line="766" column="17" lean-forward="false" selection-start-line="766" selection-start-column="11" selection-end-line="766" selection-end-column="17" />
+              <caret line="767" column="17" lean-forward="false" selection-start-line="767" selection-start-column="11" selection-end-line="767" selection-end-column="17" />
+              <caret line="768" column="17" lean-forward="false" selection-start-line="768" selection-start-column="11" selection-end-line="768" selection-end-column="17" />
+              <caret line="769" column="17" lean-forward="false" selection-start-line="769" selection-start-column="11" selection-end-line="769" selection-end-column="17" />
+              <caret line="770" column="17" lean-forward="false" selection-start-line="770" selection-start-column="11" selection-end-line="770" selection-end-column="17" />
+              <caret line="771" column="17" lean-forward="false" selection-start-line="771" selection-start-column="11" selection-end-line="771" selection-end-column="17" />
+              <caret line="772" column="17" lean-forward="false" selection-start-line="772" selection-start-column="11" selection-end-line="772" selection-end-column="17" />
+              <caret line="773" column="17" lean-forward="false" selection-start-line="773" selection-start-column="11" selection-end-line="773" selection-end-column="17" />
+              <caret line="774" column="17" lean-forward="false" selection-start-line="774" selection-start-column="11" selection-end-line="774" selection-end-column="17" />
+              <caret line="775" column="17" lean-forward="false" selection-start-line="775" selection-start-column="11" selection-end-line="775" selection-end-column="17" />
+              <caret line="776" column="17" lean-forward="false" selection-start-line="776" selection-start-column="11" selection-end-line="776" selection-end-column="17" />
+              <caret line="777" column="17" lean-forward="false" selection-start-line="777" selection-start-column="11" selection-end-line="777" selection-end-column="17" />
+              <caret line="778" column="17" lean-forward="false" selection-start-line="778" selection-start-column="11" selection-end-line="778" selection-end-column="17" />
+              <caret line="779" column="17" lean-forward="false" selection-start-line="779" selection-start-column="11" selection-end-line="779" selection-end-column="17" />
+              <caret line="780" column="17" lean-forward="false" selection-start-line="780" selection-start-column="11" selection-end-line="780" selection-end-column="17" />
+              <caret line="781" column="17" lean-forward="false" selection-start-line="781" selection-start-column="11" selection-end-line="781" selection-end-column="17" />
+              <caret line="782" column="17" lean-forward="false" selection-start-line="782" selection-start-column="11" selection-end-line="782" selection-end-column="17" />
+              <caret line="783" column="17" lean-forward="false" selection-start-line="783" selection-start-column="11" selection-end-line="783" selection-end-column="17" />
+              <caret line="784" column="17" lean-forward="false" selection-start-line="784" selection-start-column="11" selection-end-line="784" selection-end-column="17" />
+              <caret line="785" column="17" lean-forward="false" selection-start-line="785" selection-start-column="11" selection-end-line="785" selection-end-column="17" />
+              <caret line="786" column="17" lean-forward="false" selection-start-line="786" selection-start-column="11" selection-end-line="786" selection-end-column="17" />
+              <caret line="787" column="17" lean-forward="false" selection-start-line="787" selection-start-column="11" selection-end-line="787" selection-end-column="17" />
+              <caret line="788" column="17" lean-forward="false" selection-start-line="788" selection-start-column="11" selection-end-line="788" selection-end-column="17" />
+              <caret line="789" column="17" lean-forward="false" selection-start-line="789" selection-start-column="11" selection-end-line="789" selection-end-column="17" />
+              <caret line="790" column="17" lean-forward="false" selection-start-line="790" selection-start-column="11" selection-end-line="790" selection-end-column="17" />
+              <caret line="791" column="17" lean-forward="false" selection-start-line="791" selection-start-column="11" selection-end-line="791" selection-end-column="17" />
+              <caret line="792" column="17" lean-forward="false" selection-start-line="792" selection-start-column="11" selection-end-line="792" selection-end-column="17" />
+              <caret line="793" column="17" lean-forward="false" selection-start-line="793" selection-start-column="11" selection-end-line="793" selection-end-column="17" />
+              <caret line="794" column="17" lean-forward="false" selection-start-line="794" selection-start-column="11" selection-end-line="794" selection-end-column="17" />
+              <caret line="795" column="17" lean-forward="false" selection-start-line="795" selection-start-column="11" selection-end-line="795" selection-end-column="17" />
+              <caret line="796" column="17" lean-forward="false" selection-start-line="796" selection-start-column="11" selection-end-line="796" selection-end-column="17" />
+              <caret line="797" column="17" lean-forward="false" selection-start-line="797" selection-start-column="11" selection-end-line="797" selection-end-column="17" />
+              <caret line="798" column="17" lean-forward="false" selection-start-line="798" selection-start-column="11" selection-end-line="798" selection-end-column="17" />
+              <caret line="799" column="17" lean-forward="false" selection-start-line="799" selection-start-column="11" selection-end-line="799" selection-end-column="17" />
+              <caret line="800" column="17" lean-forward="false" selection-start-line="800" selection-start-column="11" selection-end-line="800" selection-end-column="17" />
+              <caret line="801" column="17" lean-forward="false" selection-start-line="801" selection-start-column="11" selection-end-line="801" selection-end-column="17" />
+              <caret line="802" column="17" lean-forward="false" selection-start-line="802" selection-start-column="11" selection-end-line="802" selection-end-column="17" />
+              <caret line="803" column="17" lean-forward="false" selection-start-line="803" selection-start-column="11" selection-end-line="803" selection-end-column="17" />
+              <caret line="804" column="17" lean-forward="false" selection-start-line="804" selection-start-column="11" selection-end-line="804" selection-end-column="17" />
+              <caret line="805" column="17" lean-forward="false" selection-start-line="805" selection-start-column="11" selection-end-line="805" selection-end-column="17" />
+              <caret line="806" column="17" lean-forward="false" selection-start-line="806" selection-start-column="11" selection-end-line="806" selection-end-column="17" />
+              <caret line="807" column="17" lean-forward="false" selection-start-line="807" selection-start-column="11" selection-end-line="807" selection-end-column="17" />
+              <caret line="808" column="17" lean-forward="false" selection-start-line="808" selection-start-column="11" selection-end-line="808" selection-end-column="17" />
+              <caret line="809" column="17" lean-forward="false" selection-start-line="809" selection-start-column="11" selection-end-line="809" selection-end-column="17" />
+              <caret line="810" column="17" lean-forward="false" selection-start-line="810" selection-start-column="11" selection-end-line="810" selection-end-column="17" />
+              <caret line="811" column="17" lean-forward="false" selection-start-line="811" selection-start-column="11" selection-end-line="811" selection-end-column="17" />
+              <caret line="812" column="17" lean-forward="false" selection-start-line="812" selection-start-column="11" selection-end-line="812" selection-end-column="17" />
+              <caret line="813" column="17" lean-forward="false" selection-start-line="813" selection-start-column="11" selection-end-line="813" selection-end-column="17" />
+              <caret line="814" column="17" lean-forward="false" selection-start-line="814" selection-start-column="11" selection-end-line="814" selection-end-column="17" />
+              <caret line="815" column="17" lean-forward="false" selection-start-line="815" selection-start-column="11" selection-end-line="815" selection-end-column="17" />
+              <caret line="816" column="17" lean-forward="false" selection-start-line="816" selection-start-column="11" selection-end-line="816" selection-end-column="17" />
+              <caret line="817" column="17" lean-forward="false" selection-start-line="817" selection-start-column="11" selection-end-line="817" selection-end-column="17" />
+              <caret line="818" column="17" lean-forward="false" selection-start-line="818" selection-start-column="11" selection-end-line="818" selection-end-column="17" />
+              <caret line="819" column="17" lean-forward="false" selection-start-line="819" selection-start-column="11" selection-end-line="819" selection-end-column="17" />
+              <caret line="820" column="17" lean-forward="false" selection-start-line="820" selection-start-column="11" selection-end-line="820" selection-end-column="17" />
+              <caret line="821" column="17" lean-forward="false" selection-start-line="821" selection-start-column="11" selection-end-line="821" selection-end-column="17" />
+              <caret line="822" column="17" lean-forward="false" selection-start-line="822" selection-start-column="11" selection-end-line="822" selection-end-column="17" />
+              <caret line="823" column="17" lean-forward="false" selection-start-line="823" selection-start-column="11" selection-end-line="823" selection-end-column="17" />
+              <caret line="824" column="17" lean-forward="false" selection-start-line="824" selection-start-column="11" selection-end-line="824" selection-end-column="17" />
+              <caret line="825" column="17" lean-forward="false" selection-start-line="825" selection-start-column="11" selection-end-line="825" selection-end-column="17" />
+              <caret line="826" column="17" lean-forward="false" selection-start-line="826" selection-start-column="11" selection-end-line="826" selection-end-column="17" />
+              <caret line="827" column="17" lean-forward="false" selection-start-line="827" selection-start-column="11" selection-end-line="827" selection-end-column="17" />
+              <caret line="828" column="17" lean-forward="false" selection-start-line="828" selection-start-column="11" selection-end-line="828" selection-end-column="17" />
+              <caret line="829" column="17" lean-forward="false" selection-start-line="829" selection-start-column="11" selection-end-line="829" selection-end-column="17" />
+              <caret line="830" column="17" lean-forward="false" selection-start-line="830" selection-start-column="11" selection-end-line="830" selection-end-column="17" />
+              <caret line="831" column="17" lean-forward="false" selection-start-line="831" selection-start-column="11" selection-end-line="831" selection-end-column="17" />
+              <caret line="832" column="17" lean-forward="false" selection-start-line="832" selection-start-column="11" selection-end-line="832" selection-end-column="17" />
+              <caret line="833" column="17" lean-forward="false" selection-start-line="833" selection-start-column="11" selection-end-line="833" selection-end-column="17" />
+              <caret line="834" column="17" lean-forward="false" selection-start-line="834" selection-start-column="11" selection-end-line="834" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logistic.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reports/Logistic.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="735" column="29" lean-forward="false" selection-start-line="735" selection-start-column="21" selection-end-line="735" selection-end-column="29" />
+              <caret line="736" column="29" lean-forward="false" selection-start-line="736" selection-start-column="21" selection-end-line="736" selection-end-column="29" />
+              <caret line="737" column="29" lean-forward="false" selection-start-line="737" selection-start-column="21" selection-end-line="737" selection-end-column="29" />
+              <caret line="738" column="29" lean-forward="false" selection-start-line="738" selection-start-column="21" selection-end-line="738" selection-end-column="29" />
+              <caret line="739" column="29" lean-forward="false" selection-start-line="739" selection-start-column="21" selection-end-line="739" selection-end-column="29" />
+              <caret line="740" column="29" lean-forward="false" selection-start-line="740" selection-start-column="21" selection-end-line="740" selection-end-column="29" />
+              <caret line="741" column="29" lean-forward="false" selection-start-line="741" selection-start-column="21" selection-end-line="741" selection-end-column="29" />
+              <caret line="742" column="29" lean-forward="false" selection-start-line="742" selection-start-column="21" selection-end-line="742" selection-end-column="29" />
+              <caret line="743" column="29" lean-forward="false" selection-start-line="743" selection-start-column="21" selection-end-line="743" selection-end-column="29" />
+              <caret line="744" column="29" lean-forward="false" selection-start-line="744" selection-start-column="21" selection-end-line="744" selection-end-column="29" />
+              <caret line="745" column="29" lean-forward="false" selection-start-line="745" selection-start-column="21" selection-end-line="745" selection-end-column="29" />
+              <caret line="746" column="29" lean-forward="false" selection-start-line="746" selection-start-column="21" selection-end-line="746" selection-end-column="29" />
+              <caret line="747" column="29" lean-forward="false" selection-start-line="747" selection-start-column="21" selection-end-line="747" selection-end-column="29" />
+              <caret line="748" column="29" lean-forward="false" selection-start-line="748" selection-start-column="21" selection-end-line="748" selection-end-column="29" />
+              <caret line="749" column="29" lean-forward="false" selection-start-line="749" selection-start-column="21" selection-end-line="749" selection-end-column="29" />
+              <caret line="750" column="29" lean-forward="false" selection-start-line="750" selection-start-column="21" selection-end-line="750" selection-end-column="29" />
+              <caret line="751" column="29" lean-forward="false" selection-start-line="751" selection-start-column="21" selection-end-line="751" selection-end-column="29" />
+              <caret line="752" column="29" lean-forward="false" selection-start-line="752" selection-start-column="21" selection-end-line="752" selection-end-column="29" />
+              <caret line="753" column="29" lean-forward="false" selection-start-line="753" selection-start-column="21" selection-end-line="753" selection-end-column="29" />
+              <caret line="754" column="29" lean-forward="false" selection-start-line="754" selection-start-column="21" selection-end-line="754" selection-end-column="29" />
+              <caret line="755" column="29" lean-forward="false" selection-start-line="755" selection-start-column="21" selection-end-line="755" selection-end-column="29" />
+              <caret line="756" column="29" lean-forward="false" selection-start-line="756" selection-start-column="21" selection-end-line="756" selection-end-column="29" />
+              <caret line="757" column="29" lean-forward="false" selection-start-line="757" selection-start-column="21" selection-end-line="757" selection-end-column="29" />
+              <caret line="758" column="29" lean-forward="false" selection-start-line="758" selection-start-column="21" selection-end-line="758" selection-end-column="29" />
+              <caret line="759" column="29" lean-forward="false" selection-start-line="759" selection-start-column="21" selection-end-line="759" selection-end-column="29" />
+              <caret line="760" column="29" lean-forward="false" selection-start-line="760" selection-start-column="21" selection-end-line="760" selection-end-column="29" />
+              <caret line="761" column="29" lean-forward="false" selection-start-line="761" selection-start-column="21" selection-end-line="761" selection-end-column="29" />
+              <caret line="762" column="29" lean-forward="false" selection-start-line="762" selection-start-column="21" selection-end-line="762" selection-end-column="29" />
+              <caret line="763" column="29" lean-forward="false" selection-start-line="763" selection-start-column="21" selection-end-line="763" selection-end-column="29" />
+              <caret line="764" column="29" lean-forward="false" selection-start-line="764" selection-start-column="21" selection-end-line="764" selection-end-column="29" />
+              <caret line="765" column="29" lean-forward="false" selection-start-line="765" selection-start-column="21" selection-end-line="765" selection-end-column="29" />
+              <caret line="766" column="29" lean-forward="false" selection-start-line="766" selection-start-column="21" selection-end-line="766" selection-end-column="29" />
+              <caret line="767" column="29" lean-forward="false" selection-start-line="767" selection-start-column="21" selection-end-line="767" selection-end-column="29" />
+              <caret line="768" column="29" lean-forward="false" selection-start-line="768" selection-start-column="21" selection-end-line="768" selection-end-column="29" />
+              <caret line="769" column="29" lean-forward="false" selection-start-line="769" selection-start-column="21" selection-end-line="769" selection-end-column="29" />
+              <caret line="770" column="29" lean-forward="false" selection-start-line="770" selection-start-column="21" selection-end-line="770" selection-end-column="29" />
+              <caret line="771" column="29" lean-forward="false" selection-start-line="771" selection-start-column="21" selection-end-line="771" selection-end-column="29" />
+              <caret line="772" column="29" lean-forward="false" selection-start-line="772" selection-start-column="21" selection-end-line="772" selection-end-column="29" />
+              <caret line="773" column="29" lean-forward="false" selection-start-line="773" selection-start-column="21" selection-end-line="773" selection-end-column="29" />
+              <caret line="774" column="29" lean-forward="false" selection-start-line="774" selection-start-column="21" selection-end-line="774" selection-end-column="29" />
+              <caret line="775" column="29" lean-forward="false" selection-start-line="775" selection-start-column="21" selection-end-line="775" selection-end-column="29" />
+              <caret line="776" column="29" lean-forward="false" selection-start-line="776" selection-start-column="21" selection-end-line="776" selection-end-column="29" />
+              <caret line="777" column="29" lean-forward="false" selection-start-line="777" selection-start-column="21" selection-end-line="777" selection-end-column="29" />
+              <caret line="778" column="29" lean-forward="false" selection-start-line="778" selection-start-column="21" selection-end-line="778" selection-end-column="29" />
+              <caret line="779" column="29" lean-forward="false" selection-start-line="779" selection-start-column="21" selection-end-line="779" selection-end-column="29" />
+              <caret line="780" column="29" lean-forward="false" selection-start-line="780" selection-start-column="21" selection-end-line="780" selection-end-column="29" />
+              <caret line="781" column="29" lean-forward="false" selection-start-line="781" selection-start-column="21" selection-end-line="781" selection-end-column="29" />
+              <caret line="782" column="29" lean-forward="false" selection-start-line="782" selection-start-column="21" selection-end-line="782" selection-end-column="29" />
+              <caret line="783" column="29" lean-forward="false" selection-start-line="783" selection-start-column="21" selection-end-line="783" selection-end-column="29" />
+              <caret line="784" column="29" lean-forward="false" selection-start-line="784" selection-start-column="21" selection-end-line="784" selection-end-column="29" />
+              <caret line="785" column="29" lean-forward="false" selection-start-line="785" selection-start-column="21" selection-end-line="785" selection-end-column="29" />
+              <caret line="786" column="29" lean-forward="false" selection-start-line="786" selection-start-column="21" selection-end-line="786" selection-end-column="29" />
+              <caret line="787" column="29" lean-forward="false" selection-start-line="787" selection-start-column="21" selection-end-line="787" selection-end-column="29" />
+              <caret line="788" column="29" lean-forward="false" selection-start-line="788" selection-start-column="21" selection-end-line="788" selection-end-column="29" />
+              <caret line="789" column="29" lean-forward="false" selection-start-line="789" selection-start-column="21" selection-end-line="789" selection-end-column="29" />
+              <caret line="790" column="29" lean-forward="false" selection-start-line="790" selection-start-column="21" selection-end-line="790" selection-end-column="29" />
+              <caret line="791" column="29" lean-forward="false" selection-start-line="791" selection-start-column="21" selection-end-line="791" selection-end-column="29" />
+              <caret line="792" column="29" lean-forward="false" selection-start-line="792" selection-start-column="21" selection-end-line="792" selection-end-column="29" />
+              <caret line="793" column="29" lean-forward="false" selection-start-line="793" selection-start-column="21" selection-end-line="793" selection-end-column="29" />
+              <caret line="794" column="29" lean-forward="false" selection-start-line="794" selection-start-column="21" selection-end-line="794" selection-end-column="29" />
+              <caret line="795" column="29" lean-forward="false" selection-start-line="795" selection-start-column="21" selection-end-line="795" selection-end-column="29" />
+              <caret line="796" column="29" lean-forward="false" selection-start-line="796" selection-start-column="21" selection-end-line="796" selection-end-column="29" />
+              <caret line="797" column="29" lean-forward="false" selection-start-line="797" selection-start-column="21" selection-end-line="797" selection-end-column="29" />
+              <caret line="798" column="29" lean-forward="false" selection-start-line="798" selection-start-column="21" selection-end-line="798" selection-end-column="29" />
+              <caret line="799" column="29" lean-forward="false" selection-start-line="799" selection-start-column="21" selection-end-line="799" selection-end-column="29" />
+              <caret line="800" column="29" lean-forward="false" selection-start-line="800" selection-start-column="21" selection-end-line="800" selection-end-column="29" />
+              <caret line="801" column="29" lean-forward="false" selection-start-line="801" selection-start-column="21" selection-end-line="801" selection-end-column="29" />
+              <caret line="802" column="29" lean-forward="false" selection-start-line="802" selection-start-column="21" selection-end-line="802" selection-end-column="29" />
+              <caret line="803" column="29" lean-forward="false" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="29" />
+              <caret line="804" column="29" lean-forward="false" selection-start-line="804" selection-start-column="21" selection-end-line="804" selection-end-column="29" />
+              <caret line="805" column="29" lean-forward="false" selection-start-line="805" selection-start-column="21" selection-end-line="805" selection-end-column="29" />
+              <caret line="806" column="29" lean-forward="false" selection-start-line="806" selection-start-column="21" selection-end-line="806" selection-end-column="29" />
+              <caret line="807" column="29" lean-forward="false" selection-start-line="807" selection-start-column="21" selection-end-line="807" selection-end-column="29" />
+              <caret line="808" column="29" lean-forward="false" selection-start-line="808" selection-start-column="21" selection-end-line="808" selection-end-column="29" />
+              <caret line="809" column="29" lean-forward="false" selection-start-line="809" selection-start-column="21" selection-end-line="809" selection-end-column="29" />
+              <caret line="810" column="29" lean-forward="false" selection-start-line="810" selection-start-column="21" selection-end-line="810" selection-end-column="29" />
+              <caret line="811" column="29" lean-forward="false" selection-start-line="811" selection-start-column="21" selection-end-line="811" selection-end-column="29" />
+              <caret line="812" column="29" lean-forward="false" selection-start-line="812" selection-start-column="21" selection-end-line="812" selection-end-column="29" />
+              <caret line="813" column="29" lean-forward="false" selection-start-line="813" selection-start-column="21" selection-end-line="813" selection-end-column="29" />
+              <caret line="814" column="29" lean-forward="false" selection-start-line="814" selection-start-column="21" selection-end-line="814" selection-end-column="29" />
+              <caret line="815" column="29" lean-forward="false" selection-start-line="815" selection-start-column="21" selection-end-line="815" selection-end-column="29" />
+              <caret line="816" column="29" lean-forward="false" selection-start-line="816" selection-start-column="21" selection-end-line="816" selection-end-column="29" />
+              <caret line="817" column="29" lean-forward="false" selection-start-line="817" selection-start-column="21" selection-end-line="817" selection-end-column="29" />
+              <caret line="818" column="29" lean-forward="false" selection-start-line="818" selection-start-column="21" selection-end-line="818" selection-end-column="29" />
+              <caret line="819" column="29" lean-forward="false" selection-start-line="819" selection-start-column="21" selection-end-line="819" selection-end-column="29" />
+              <caret line="820" column="29" lean-forward="false" selection-start-line="820" selection-start-column="21" selection-end-line="820" selection-end-column="29" />
+              <caret line="821" column="29" lean-forward="false" selection-start-line="821" selection-start-column="21" selection-end-line="821" selection-end-column="29" />
+              <caret line="822" column="29" lean-forward="false" selection-start-line="822" selection-start-column="21" selection-end-line="822" selection-end-column="29" />
+              <caret line="823" column="29" lean-forward="false" selection-start-line="823" selection-start-column="21" selection-end-line="823" selection-end-column="29" />
+              <caret line="824" column="29" lean-forward="false" selection-start-line="824" selection-start-column="21" selection-end-line="824" selection-end-column="29" />
+              <caret line="825" column="29" lean-forward="false" selection-start-line="825" selection-start-column="21" selection-end-line="825" selection-end-column="29" />
+              <caret line="826" column="29" lean-forward="false" selection-start-line="826" selection-start-column="21" selection-end-line="826" selection-end-column="29" />
+              <caret line="827" column="29" lean-forward="false" selection-start-line="827" selection-start-column="21" selection-end-line="827" selection-end-column="29" />
+              <caret line="828" column="29" lean-forward="false" selection-start-line="828" selection-start-column="21" selection-end-line="828" selection-end-column="29" />
+              <caret line="829" column="29" lean-forward="false" selection-start-line="829" selection-start-column="21" selection-end-line="829" selection-end-column="29" />
+              <caret line="830" column="29" lean-forward="false" selection-start-line="830" selection-start-column="21" selection-end-line="830" selection-end-column="29" />
+              <caret line="831" column="29" lean-forward="false" selection-start-line="831" selection-start-column="21" selection-end-line="831" selection-end-column="29" />
+              <caret line="832" column="29" lean-forward="false" selection-start-line="832" selection-start-column="21" selection-end-line="832" selection-end-column="29" />
+              <caret line="833" column="29" lean-forward="false" selection-start-line="833" selection-start-column="21" selection-end-line="833" selection-end-column="29" />
+              <caret line="834" column="29" lean-forward="false" selection-start-line="834" selection-start-column="21" selection-end-line="834" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquaredErrorFunction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/SquaredErrorFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZeroOneLossError.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/ZeroOneLossError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,6 +386,25 @@
         <option value="$PROJECT_DIR$/data/test-numeric.arff" />
         <option value="$PROJECT_DIR$/src/main/java/tests/NumericAttributeStatisticsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/AttributeStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/ClassStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/NominalAttributeStatistic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/NumericAttributeStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Comparator/LearningError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/SquaredLearningError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/LearningError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/earningErrorFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/SquaredEarningError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Comparator/SimpleTimer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Comparator/ClassifiresComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/LearningErrorFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Comparator/ClassifiersComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/SquaredErrorFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/ZeroOneLossError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/LearningErrorFunctionBase.java" />
+        <option value="$PROJECT_DIR$/reports/Logistic.txt" />
+        <option value="$PROJECT_DIR$/reports/NaiveBayes.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java" />
       </list>
     </option>
   </component>
@@ -280,8 +508,30 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="weka-clasification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weka-classification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weka" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,6 +558,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="weka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Comparator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weka-clasification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weka-classification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,33 +617,7 @@
       <recent name="D:\Library\Documents\GitHub\weka-classification\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Experiment">
-    <configuration default="false" name="NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="weka-classification" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.NominalAttributeStatisticTest" />
-      <option name="METHOD_NAME" value="CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CompareClassifiers">
     <configuration default="false" name="NominalAttributeStatisticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -405,7 +647,7 @@
     <configuration default="false" name="Experiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="put.cs.idss.ml.weka.*" />
+          <option name="PATTERN" value="put.cs.idss.ml.weka.AttributeStattistics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -472,6 +714,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CompareClassifiers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="put.cs.idss.ml.weka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="put.cs.idss.ml.weka.CompareClassifiers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="weka-classification" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -793,19 +1055,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Experiment" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Experiment" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CompareClassifiers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Experiment" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest.CalculateStatistics_CheckCalculatedStatistics_ShouldCorrectlyCalculateStatistics" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CompareClassifiers" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Experiment" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest.CalculateNumericStatistics_CheckMeanAndStdValue_ShouldBeCorrectlyCalculated" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NumericAttributeStatisticsTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NominalAttributeStatisticTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -828,7 +1090,7 @@
       <workItem from="1481288956814" duration="9000" />
       <workItem from="1484220575308" duration="3483000" />
       <workItem from="1484224276257" duration="6143000" />
-      <workItem from="1484230444312" duration="10879000" />
+      <workItem from="1484230444312" duration="32610000" />
     </task>
     <servers />
   </component>
@@ -865,7 +1127,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20514000" />
+    <option name="totallyTimeSpent" value="42245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -881,7 +1143,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -926,51 +1188,37 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NominalAttributeStatistic.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java</url>
           <line>29</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NominalAttributeStatistic.java</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/LearningErrorFunctionBase.java</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NominalAttributeStatistic.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NaiveBayesClassifier.java</url>
-          <line>146</line>
+          <line>89</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NaiveBayesClassifier.java</url>
-          <line>133</line>
+          <line>95</line>
           <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/ClassStatistics.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="23" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="report" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1029,12 +1277,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NominalAttributeStatistic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/NominalAttributeStatistic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1057,7 +1305,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStatistics.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/AttributeStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
@@ -1099,26 +1347,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/put/cs/idss/ml/weka/DataStatistics.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/weka.jar!/weka/core/Instances.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14127">
-          <caret line="899" column="0" lean-forward="false" selection-start-line="899" selection-start-column="0" selection-end-line="899" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1129,36 +1361,6 @@
           <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
           <folding>
             <element signature="e#8061#8062#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NominalAttributeStatistic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/ClassStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NaiveBayesClassifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1205,14 +1407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/test-numeric.arff">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1226,17 +1420,379 @@
         <state relative-caret-position="791">
           <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/AttributeStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/weka.jar!/weka/core/Instances.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="481" column="0" lean-forward="false" selection-start-line="481" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/ClassStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NumericAttributeStatistics.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/NumericAttributeStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="64" column="31" lean-forward="false" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/AttributeStattistics/NominalAttributeStatistic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/LearningErrorFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Comparator/SimpleTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/NaiveBayesClassifier.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/ZeroOneLossError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/SquaredErrorFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/NaiveBayesClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Errors/LearningErrorFunctionBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="43" column="75" lean-forward="false" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/Logistic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="735" column="29" lean-forward="false" selection-start-line="735" selection-start-column="21" selection-end-line="735" selection-end-column="29" />
+          <caret line="736" column="29" lean-forward="false" selection-start-line="736" selection-start-column="21" selection-end-line="736" selection-end-column="29" />
+          <caret line="737" column="29" lean-forward="false" selection-start-line="737" selection-start-column="21" selection-end-line="737" selection-end-column="29" />
+          <caret line="738" column="29" lean-forward="false" selection-start-line="738" selection-start-column="21" selection-end-line="738" selection-end-column="29" />
+          <caret line="739" column="29" lean-forward="false" selection-start-line="739" selection-start-column="21" selection-end-line="739" selection-end-column="29" />
+          <caret line="740" column="29" lean-forward="false" selection-start-line="740" selection-start-column="21" selection-end-line="740" selection-end-column="29" />
+          <caret line="741" column="29" lean-forward="false" selection-start-line="741" selection-start-column="21" selection-end-line="741" selection-end-column="29" />
+          <caret line="742" column="29" lean-forward="false" selection-start-line="742" selection-start-column="21" selection-end-line="742" selection-end-column="29" />
+          <caret line="743" column="29" lean-forward="false" selection-start-line="743" selection-start-column="21" selection-end-line="743" selection-end-column="29" />
+          <caret line="744" column="29" lean-forward="false" selection-start-line="744" selection-start-column="21" selection-end-line="744" selection-end-column="29" />
+          <caret line="745" column="29" lean-forward="false" selection-start-line="745" selection-start-column="21" selection-end-line="745" selection-end-column="29" />
+          <caret line="746" column="29" lean-forward="false" selection-start-line="746" selection-start-column="21" selection-end-line="746" selection-end-column="29" />
+          <caret line="747" column="29" lean-forward="false" selection-start-line="747" selection-start-column="21" selection-end-line="747" selection-end-column="29" />
+          <caret line="748" column="29" lean-forward="false" selection-start-line="748" selection-start-column="21" selection-end-line="748" selection-end-column="29" />
+          <caret line="749" column="29" lean-forward="false" selection-start-line="749" selection-start-column="21" selection-end-line="749" selection-end-column="29" />
+          <caret line="750" column="29" lean-forward="false" selection-start-line="750" selection-start-column="21" selection-end-line="750" selection-end-column="29" />
+          <caret line="751" column="29" lean-forward="false" selection-start-line="751" selection-start-column="21" selection-end-line="751" selection-end-column="29" />
+          <caret line="752" column="29" lean-forward="false" selection-start-line="752" selection-start-column="21" selection-end-line="752" selection-end-column="29" />
+          <caret line="753" column="29" lean-forward="false" selection-start-line="753" selection-start-column="21" selection-end-line="753" selection-end-column="29" />
+          <caret line="754" column="29" lean-forward="false" selection-start-line="754" selection-start-column="21" selection-end-line="754" selection-end-column="29" />
+          <caret line="755" column="29" lean-forward="false" selection-start-line="755" selection-start-column="21" selection-end-line="755" selection-end-column="29" />
+          <caret line="756" column="29" lean-forward="false" selection-start-line="756" selection-start-column="21" selection-end-line="756" selection-end-column="29" />
+          <caret line="757" column="29" lean-forward="false" selection-start-line="757" selection-start-column="21" selection-end-line="757" selection-end-column="29" />
+          <caret line="758" column="29" lean-forward="false" selection-start-line="758" selection-start-column="21" selection-end-line="758" selection-end-column="29" />
+          <caret line="759" column="29" lean-forward="false" selection-start-line="759" selection-start-column="21" selection-end-line="759" selection-end-column="29" />
+          <caret line="760" column="29" lean-forward="false" selection-start-line="760" selection-start-column="21" selection-end-line="760" selection-end-column="29" />
+          <caret line="761" column="29" lean-forward="false" selection-start-line="761" selection-start-column="21" selection-end-line="761" selection-end-column="29" />
+          <caret line="762" column="29" lean-forward="false" selection-start-line="762" selection-start-column="21" selection-end-line="762" selection-end-column="29" />
+          <caret line="763" column="29" lean-forward="false" selection-start-line="763" selection-start-column="21" selection-end-line="763" selection-end-column="29" />
+          <caret line="764" column="29" lean-forward="false" selection-start-line="764" selection-start-column="21" selection-end-line="764" selection-end-column="29" />
+          <caret line="765" column="29" lean-forward="false" selection-start-line="765" selection-start-column="21" selection-end-line="765" selection-end-column="29" />
+          <caret line="766" column="29" lean-forward="false" selection-start-line="766" selection-start-column="21" selection-end-line="766" selection-end-column="29" />
+          <caret line="767" column="29" lean-forward="false" selection-start-line="767" selection-start-column="21" selection-end-line="767" selection-end-column="29" />
+          <caret line="768" column="29" lean-forward="false" selection-start-line="768" selection-start-column="21" selection-end-line="768" selection-end-column="29" />
+          <caret line="769" column="29" lean-forward="false" selection-start-line="769" selection-start-column="21" selection-end-line="769" selection-end-column="29" />
+          <caret line="770" column="29" lean-forward="false" selection-start-line="770" selection-start-column="21" selection-end-line="770" selection-end-column="29" />
+          <caret line="771" column="29" lean-forward="false" selection-start-line="771" selection-start-column="21" selection-end-line="771" selection-end-column="29" />
+          <caret line="772" column="29" lean-forward="false" selection-start-line="772" selection-start-column="21" selection-end-line="772" selection-end-column="29" />
+          <caret line="773" column="29" lean-forward="false" selection-start-line="773" selection-start-column="21" selection-end-line="773" selection-end-column="29" />
+          <caret line="774" column="29" lean-forward="false" selection-start-line="774" selection-start-column="21" selection-end-line="774" selection-end-column="29" />
+          <caret line="775" column="29" lean-forward="false" selection-start-line="775" selection-start-column="21" selection-end-line="775" selection-end-column="29" />
+          <caret line="776" column="29" lean-forward="false" selection-start-line="776" selection-start-column="21" selection-end-line="776" selection-end-column="29" />
+          <caret line="777" column="29" lean-forward="false" selection-start-line="777" selection-start-column="21" selection-end-line="777" selection-end-column="29" />
+          <caret line="778" column="29" lean-forward="false" selection-start-line="778" selection-start-column="21" selection-end-line="778" selection-end-column="29" />
+          <caret line="779" column="29" lean-forward="false" selection-start-line="779" selection-start-column="21" selection-end-line="779" selection-end-column="29" />
+          <caret line="780" column="29" lean-forward="false" selection-start-line="780" selection-start-column="21" selection-end-line="780" selection-end-column="29" />
+          <caret line="781" column="29" lean-forward="false" selection-start-line="781" selection-start-column="21" selection-end-line="781" selection-end-column="29" />
+          <caret line="782" column="29" lean-forward="false" selection-start-line="782" selection-start-column="21" selection-end-line="782" selection-end-column="29" />
+          <caret line="783" column="29" lean-forward="false" selection-start-line="783" selection-start-column="21" selection-end-line="783" selection-end-column="29" />
+          <caret line="784" column="29" lean-forward="false" selection-start-line="784" selection-start-column="21" selection-end-line="784" selection-end-column="29" />
+          <caret line="785" column="29" lean-forward="false" selection-start-line="785" selection-start-column="21" selection-end-line="785" selection-end-column="29" />
+          <caret line="786" column="29" lean-forward="false" selection-start-line="786" selection-start-column="21" selection-end-line="786" selection-end-column="29" />
+          <caret line="787" column="29" lean-forward="false" selection-start-line="787" selection-start-column="21" selection-end-line="787" selection-end-column="29" />
+          <caret line="788" column="29" lean-forward="false" selection-start-line="788" selection-start-column="21" selection-end-line="788" selection-end-column="29" />
+          <caret line="789" column="29" lean-forward="false" selection-start-line="789" selection-start-column="21" selection-end-line="789" selection-end-column="29" />
+          <caret line="790" column="29" lean-forward="false" selection-start-line="790" selection-start-column="21" selection-end-line="790" selection-end-column="29" />
+          <caret line="791" column="29" lean-forward="false" selection-start-line="791" selection-start-column="21" selection-end-line="791" selection-end-column="29" />
+          <caret line="792" column="29" lean-forward="false" selection-start-line="792" selection-start-column="21" selection-end-line="792" selection-end-column="29" />
+          <caret line="793" column="29" lean-forward="false" selection-start-line="793" selection-start-column="21" selection-end-line="793" selection-end-column="29" />
+          <caret line="794" column="29" lean-forward="false" selection-start-line="794" selection-start-column="21" selection-end-line="794" selection-end-column="29" />
+          <caret line="795" column="29" lean-forward="false" selection-start-line="795" selection-start-column="21" selection-end-line="795" selection-end-column="29" />
+          <caret line="796" column="29" lean-forward="false" selection-start-line="796" selection-start-column="21" selection-end-line="796" selection-end-column="29" />
+          <caret line="797" column="29" lean-forward="false" selection-start-line="797" selection-start-column="21" selection-end-line="797" selection-end-column="29" />
+          <caret line="798" column="29" lean-forward="false" selection-start-line="798" selection-start-column="21" selection-end-line="798" selection-end-column="29" />
+          <caret line="799" column="29" lean-forward="false" selection-start-line="799" selection-start-column="21" selection-end-line="799" selection-end-column="29" />
+          <caret line="800" column="29" lean-forward="false" selection-start-line="800" selection-start-column="21" selection-end-line="800" selection-end-column="29" />
+          <caret line="801" column="29" lean-forward="false" selection-start-line="801" selection-start-column="21" selection-end-line="801" selection-end-column="29" />
+          <caret line="802" column="29" lean-forward="false" selection-start-line="802" selection-start-column="21" selection-end-line="802" selection-end-column="29" />
+          <caret line="803" column="29" lean-forward="false" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="29" />
+          <caret line="804" column="29" lean-forward="false" selection-start-line="804" selection-start-column="21" selection-end-line="804" selection-end-column="29" />
+          <caret line="805" column="29" lean-forward="false" selection-start-line="805" selection-start-column="21" selection-end-line="805" selection-end-column="29" />
+          <caret line="806" column="29" lean-forward="false" selection-start-line="806" selection-start-column="21" selection-end-line="806" selection-end-column="29" />
+          <caret line="807" column="29" lean-forward="false" selection-start-line="807" selection-start-column="21" selection-end-line="807" selection-end-column="29" />
+          <caret line="808" column="29" lean-forward="false" selection-start-line="808" selection-start-column="21" selection-end-line="808" selection-end-column="29" />
+          <caret line="809" column="29" lean-forward="false" selection-start-line="809" selection-start-column="21" selection-end-line="809" selection-end-column="29" />
+          <caret line="810" column="29" lean-forward="false" selection-start-line="810" selection-start-column="21" selection-end-line="810" selection-end-column="29" />
+          <caret line="811" column="29" lean-forward="false" selection-start-line="811" selection-start-column="21" selection-end-line="811" selection-end-column="29" />
+          <caret line="812" column="29" lean-forward="false" selection-start-line="812" selection-start-column="21" selection-end-line="812" selection-end-column="29" />
+          <caret line="813" column="29" lean-forward="false" selection-start-line="813" selection-start-column="21" selection-end-line="813" selection-end-column="29" />
+          <caret line="814" column="29" lean-forward="false" selection-start-line="814" selection-start-column="21" selection-end-line="814" selection-end-column="29" />
+          <caret line="815" column="29" lean-forward="false" selection-start-line="815" selection-start-column="21" selection-end-line="815" selection-end-column="29" />
+          <caret line="816" column="29" lean-forward="false" selection-start-line="816" selection-start-column="21" selection-end-line="816" selection-end-column="29" />
+          <caret line="817" column="29" lean-forward="false" selection-start-line="817" selection-start-column="21" selection-end-line="817" selection-end-column="29" />
+          <caret line="818" column="29" lean-forward="false" selection-start-line="818" selection-start-column="21" selection-end-line="818" selection-end-column="29" />
+          <caret line="819" column="29" lean-forward="false" selection-start-line="819" selection-start-column="21" selection-end-line="819" selection-end-column="29" />
+          <caret line="820" column="29" lean-forward="false" selection-start-line="820" selection-start-column="21" selection-end-line="820" selection-end-column="29" />
+          <caret line="821" column="29" lean-forward="false" selection-start-line="821" selection-start-column="21" selection-end-line="821" selection-end-column="29" />
+          <caret line="822" column="29" lean-forward="false" selection-start-line="822" selection-start-column="21" selection-end-line="822" selection-end-column="29" />
+          <caret line="823" column="29" lean-forward="false" selection-start-line="823" selection-start-column="21" selection-end-line="823" selection-end-column="29" />
+          <caret line="824" column="29" lean-forward="false" selection-start-line="824" selection-start-column="21" selection-end-line="824" selection-end-column="29" />
+          <caret line="825" column="29" lean-forward="false" selection-start-line="825" selection-start-column="21" selection-end-line="825" selection-end-column="29" />
+          <caret line="826" column="29" lean-forward="false" selection-start-line="826" selection-start-column="21" selection-end-line="826" selection-end-column="29" />
+          <caret line="827" column="29" lean-forward="false" selection-start-line="827" selection-start-column="21" selection-end-line="827" selection-end-column="29" />
+          <caret line="828" column="29" lean-forward="false" selection-start-line="828" selection-start-column="21" selection-end-line="828" selection-end-column="29" />
+          <caret line="829" column="29" lean-forward="false" selection-start-line="829" selection-start-column="21" selection-end-line="829" selection-end-column="29" />
+          <caret line="830" column="29" lean-forward="false" selection-start-line="830" selection-start-column="21" selection-end-line="830" selection-end-column="29" />
+          <caret line="831" column="29" lean-forward="false" selection-start-line="831" selection-start-column="21" selection-end-line="831" selection-end-column="29" />
+          <caret line="832" column="29" lean-forward="false" selection-start-line="832" selection-start-column="21" selection-end-line="832" selection-end-column="29" />
+          <caret line="833" column="29" lean-forward="false" selection-start-line="833" selection-start-column="21" selection-end-line="833" selection-end-column="29" />
+          <caret line="834" column="29" lean-forward="false" selection-start-line="834" selection-start-column="21" selection-end-line="834" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/NaiveBayes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="735" column="17" lean-forward="false" selection-start-line="735" selection-start-column="11" selection-end-line="735" selection-end-column="17" />
+          <caret line="736" column="17" lean-forward="false" selection-start-line="736" selection-start-column="11" selection-end-line="736" selection-end-column="17" />
+          <caret line="737" column="17" lean-forward="false" selection-start-line="737" selection-start-column="11" selection-end-line="737" selection-end-column="17" />
+          <caret line="738" column="17" lean-forward="false" selection-start-line="738" selection-start-column="11" selection-end-line="738" selection-end-column="17" />
+          <caret line="739" column="17" lean-forward="false" selection-start-line="739" selection-start-column="11" selection-end-line="739" selection-end-column="17" />
+          <caret line="740" column="17" lean-forward="false" selection-start-line="740" selection-start-column="11" selection-end-line="740" selection-end-column="17" />
+          <caret line="741" column="17" lean-forward="false" selection-start-line="741" selection-start-column="11" selection-end-line="741" selection-end-column="17" />
+          <caret line="742" column="17" lean-forward="false" selection-start-line="742" selection-start-column="11" selection-end-line="742" selection-end-column="17" />
+          <caret line="743" column="17" lean-forward="false" selection-start-line="743" selection-start-column="11" selection-end-line="743" selection-end-column="17" />
+          <caret line="744" column="17" lean-forward="false" selection-start-line="744" selection-start-column="11" selection-end-line="744" selection-end-column="17" />
+          <caret line="745" column="17" lean-forward="false" selection-start-line="745" selection-start-column="11" selection-end-line="745" selection-end-column="17" />
+          <caret line="746" column="17" lean-forward="false" selection-start-line="746" selection-start-column="11" selection-end-line="746" selection-end-column="17" />
+          <caret line="747" column="17" lean-forward="false" selection-start-line="747" selection-start-column="11" selection-end-line="747" selection-end-column="17" />
+          <caret line="748" column="17" lean-forward="false" selection-start-line="748" selection-start-column="11" selection-end-line="748" selection-end-column="17" />
+          <caret line="749" column="17" lean-forward="false" selection-start-line="749" selection-start-column="11" selection-end-line="749" selection-end-column="17" />
+          <caret line="750" column="17" lean-forward="false" selection-start-line="750" selection-start-column="11" selection-end-line="750" selection-end-column="17" />
+          <caret line="751" column="17" lean-forward="false" selection-start-line="751" selection-start-column="11" selection-end-line="751" selection-end-column="17" />
+          <caret line="752" column="17" lean-forward="false" selection-start-line="752" selection-start-column="11" selection-end-line="752" selection-end-column="17" />
+          <caret line="753" column="17" lean-forward="false" selection-start-line="753" selection-start-column="11" selection-end-line="753" selection-end-column="17" />
+          <caret line="754" column="17" lean-forward="false" selection-start-line="754" selection-start-column="11" selection-end-line="754" selection-end-column="17" />
+          <caret line="755" column="17" lean-forward="false" selection-start-line="755" selection-start-column="11" selection-end-line="755" selection-end-column="17" />
+          <caret line="756" column="17" lean-forward="false" selection-start-line="756" selection-start-column="11" selection-end-line="756" selection-end-column="17" />
+          <caret line="757" column="17" lean-forward="false" selection-start-line="757" selection-start-column="11" selection-end-line="757" selection-end-column="17" />
+          <caret line="758" column="17" lean-forward="false" selection-start-line="758" selection-start-column="11" selection-end-line="758" selection-end-column="17" />
+          <caret line="759" column="17" lean-forward="false" selection-start-line="759" selection-start-column="11" selection-end-line="759" selection-end-column="17" />
+          <caret line="760" column="17" lean-forward="false" selection-start-line="760" selection-start-column="11" selection-end-line="760" selection-end-column="17" />
+          <caret line="761" column="17" lean-forward="false" selection-start-line="761" selection-start-column="11" selection-end-line="761" selection-end-column="17" />
+          <caret line="762" column="17" lean-forward="false" selection-start-line="762" selection-start-column="11" selection-end-line="762" selection-end-column="17" />
+          <caret line="763" column="17" lean-forward="false" selection-start-line="763" selection-start-column="11" selection-end-line="763" selection-end-column="17" />
+          <caret line="764" column="17" lean-forward="false" selection-start-line="764" selection-start-column="11" selection-end-line="764" selection-end-column="17" />
+          <caret line="765" column="17" lean-forward="false" selection-start-line="765" selection-start-column="11" selection-end-line="765" selection-end-column="17" />
+          <caret line="766" column="17" lean-forward="false" selection-start-line="766" selection-start-column="11" selection-end-line="766" selection-end-column="17" />
+          <caret line="767" column="17" lean-forward="false" selection-start-line="767" selection-start-column="11" selection-end-line="767" selection-end-column="17" />
+          <caret line="768" column="17" lean-forward="false" selection-start-line="768" selection-start-column="11" selection-end-line="768" selection-end-column="17" />
+          <caret line="769" column="17" lean-forward="false" selection-start-line="769" selection-start-column="11" selection-end-line="769" selection-end-column="17" />
+          <caret line="770" column="17" lean-forward="false" selection-start-line="770" selection-start-column="11" selection-end-line="770" selection-end-column="17" />
+          <caret line="771" column="17" lean-forward="false" selection-start-line="771" selection-start-column="11" selection-end-line="771" selection-end-column="17" />
+          <caret line="772" column="17" lean-forward="false" selection-start-line="772" selection-start-column="11" selection-end-line="772" selection-end-column="17" />
+          <caret line="773" column="17" lean-forward="false" selection-start-line="773" selection-start-column="11" selection-end-line="773" selection-end-column="17" />
+          <caret line="774" column="17" lean-forward="false" selection-start-line="774" selection-start-column="11" selection-end-line="774" selection-end-column="17" />
+          <caret line="775" column="17" lean-forward="false" selection-start-line="775" selection-start-column="11" selection-end-line="775" selection-end-column="17" />
+          <caret line="776" column="17" lean-forward="false" selection-start-line="776" selection-start-column="11" selection-end-line="776" selection-end-column="17" />
+          <caret line="777" column="17" lean-forward="false" selection-start-line="777" selection-start-column="11" selection-end-line="777" selection-end-column="17" />
+          <caret line="778" column="17" lean-forward="false" selection-start-line="778" selection-start-column="11" selection-end-line="778" selection-end-column="17" />
+          <caret line="779" column="17" lean-forward="false" selection-start-line="779" selection-start-column="11" selection-end-line="779" selection-end-column="17" />
+          <caret line="780" column="17" lean-forward="false" selection-start-line="780" selection-start-column="11" selection-end-line="780" selection-end-column="17" />
+          <caret line="781" column="17" lean-forward="false" selection-start-line="781" selection-start-column="11" selection-end-line="781" selection-end-column="17" />
+          <caret line="782" column="17" lean-forward="false" selection-start-line="782" selection-start-column="11" selection-end-line="782" selection-end-column="17" />
+          <caret line="783" column="17" lean-forward="false" selection-start-line="783" selection-start-column="11" selection-end-line="783" selection-end-column="17" />
+          <caret line="784" column="17" lean-forward="false" selection-start-line="784" selection-start-column="11" selection-end-line="784" selection-end-column="17" />
+          <caret line="785" column="17" lean-forward="false" selection-start-line="785" selection-start-column="11" selection-end-line="785" selection-end-column="17" />
+          <caret line="786" column="17" lean-forward="false" selection-start-line="786" selection-start-column="11" selection-end-line="786" selection-end-column="17" />
+          <caret line="787" column="17" lean-forward="false" selection-start-line="787" selection-start-column="11" selection-end-line="787" selection-end-column="17" />
+          <caret line="788" column="17" lean-forward="false" selection-start-line="788" selection-start-column="11" selection-end-line="788" selection-end-column="17" />
+          <caret line="789" column="17" lean-forward="false" selection-start-line="789" selection-start-column="11" selection-end-line="789" selection-end-column="17" />
+          <caret line="790" column="17" lean-forward="false" selection-start-line="790" selection-start-column="11" selection-end-line="790" selection-end-column="17" />
+          <caret line="791" column="17" lean-forward="false" selection-start-line="791" selection-start-column="11" selection-end-line="791" selection-end-column="17" />
+          <caret line="792" column="17" lean-forward="false" selection-start-line="792" selection-start-column="11" selection-end-line="792" selection-end-column="17" />
+          <caret line="793" column="17" lean-forward="false" selection-start-line="793" selection-start-column="11" selection-end-line="793" selection-end-column="17" />
+          <caret line="794" column="17" lean-forward="false" selection-start-line="794" selection-start-column="11" selection-end-line="794" selection-end-column="17" />
+          <caret line="795" column="17" lean-forward="false" selection-start-line="795" selection-start-column="11" selection-end-line="795" selection-end-column="17" />
+          <caret line="796" column="17" lean-forward="false" selection-start-line="796" selection-start-column="11" selection-end-line="796" selection-end-column="17" />
+          <caret line="797" column="17" lean-forward="false" selection-start-line="797" selection-start-column="11" selection-end-line="797" selection-end-column="17" />
+          <caret line="798" column="17" lean-forward="false" selection-start-line="798" selection-start-column="11" selection-end-line="798" selection-end-column="17" />
+          <caret line="799" column="17" lean-forward="false" selection-start-line="799" selection-start-column="11" selection-end-line="799" selection-end-column="17" />
+          <caret line="800" column="17" lean-forward="false" selection-start-line="800" selection-start-column="11" selection-end-line="800" selection-end-column="17" />
+          <caret line="801" column="17" lean-forward="false" selection-start-line="801" selection-start-column="11" selection-end-line="801" selection-end-column="17" />
+          <caret line="802" column="17" lean-forward="false" selection-start-line="802" selection-start-column="11" selection-end-line="802" selection-end-column="17" />
+          <caret line="803" column="17" lean-forward="false" selection-start-line="803" selection-start-column="11" selection-end-line="803" selection-end-column="17" />
+          <caret line="804" column="17" lean-forward="false" selection-start-line="804" selection-start-column="11" selection-end-line="804" selection-end-column="17" />
+          <caret line="805" column="17" lean-forward="false" selection-start-line="805" selection-start-column="11" selection-end-line="805" selection-end-column="17" />
+          <caret line="806" column="17" lean-forward="false" selection-start-line="806" selection-start-column="11" selection-end-line="806" selection-end-column="17" />
+          <caret line="807" column="17" lean-forward="false" selection-start-line="807" selection-start-column="11" selection-end-line="807" selection-end-column="17" />
+          <caret line="808" column="17" lean-forward="false" selection-start-line="808" selection-start-column="11" selection-end-line="808" selection-end-column="17" />
+          <caret line="809" column="17" lean-forward="false" selection-start-line="809" selection-start-column="11" selection-end-line="809" selection-end-column="17" />
+          <caret line="810" column="17" lean-forward="false" selection-start-line="810" selection-start-column="11" selection-end-line="810" selection-end-column="17" />
+          <caret line="811" column="17" lean-forward="false" selection-start-line="811" selection-start-column="11" selection-end-line="811" selection-end-column="17" />
+          <caret line="812" column="17" lean-forward="false" selection-start-line="812" selection-start-column="11" selection-end-line="812" selection-end-column="17" />
+          <caret line="813" column="17" lean-forward="false" selection-start-line="813" selection-start-column="11" selection-end-line="813" selection-end-column="17" />
+          <caret line="814" column="17" lean-forward="false" selection-start-line="814" selection-start-column="11" selection-end-line="814" selection-end-column="17" />
+          <caret line="815" column="17" lean-forward="false" selection-start-line="815" selection-start-column="11" selection-end-line="815" selection-end-column="17" />
+          <caret line="816" column="17" lean-forward="false" selection-start-line="816" selection-start-column="11" selection-end-line="816" selection-end-column="17" />
+          <caret line="817" column="17" lean-forward="false" selection-start-line="817" selection-start-column="11" selection-end-line="817" selection-end-column="17" />
+          <caret line="818" column="17" lean-forward="false" selection-start-line="818" selection-start-column="11" selection-end-line="818" selection-end-column="17" />
+          <caret line="819" column="17" lean-forward="false" selection-start-line="819" selection-start-column="11" selection-end-line="819" selection-end-column="17" />
+          <caret line="820" column="17" lean-forward="false" selection-start-line="820" selection-start-column="11" selection-end-line="820" selection-end-column="17" />
+          <caret line="821" column="17" lean-forward="false" selection-start-line="821" selection-start-column="11" selection-end-line="821" selection-end-column="17" />
+          <caret line="822" column="17" lean-forward="false" selection-start-line="822" selection-start-column="11" selection-end-line="822" selection-end-column="17" />
+          <caret line="823" column="17" lean-forward="false" selection-start-line="823" selection-start-column="11" selection-end-line="823" selection-end-column="17" />
+          <caret line="824" column="17" lean-forward="false" selection-start-line="824" selection-start-column="11" selection-end-line="824" selection-end-column="17" />
+          <caret line="825" column="17" lean-forward="false" selection-start-line="825" selection-start-column="11" selection-end-line="825" selection-end-column="17" />
+          <caret line="826" column="17" lean-forward="false" selection-start-line="826" selection-start-column="11" selection-end-line="826" selection-end-column="17" />
+          <caret line="827" column="17" lean-forward="false" selection-start-line="827" selection-start-column="11" selection-end-line="827" selection-end-column="17" />
+          <caret line="828" column="17" lean-forward="false" selection-start-line="828" selection-start-column="11" selection-end-line="828" selection-end-column="17" />
+          <caret line="829" column="17" lean-forward="false" selection-start-line="829" selection-start-column="11" selection-end-line="829" selection-end-column="17" />
+          <caret line="830" column="17" lean-forward="false" selection-start-line="830" selection-start-column="11" selection-end-line="830" selection-end-column="17" />
+          <caret line="831" column="17" lean-forward="false" selection-start-line="831" selection-start-column="11" selection-end-line="831" selection-end-column="17" />
+          <caret line="832" column="17" lean-forward="false" selection-start-line="832" selection-start-column="11" selection-end-line="832" selection-end-column="17" />
+          <caret line="833" column="17" lean-forward="false" selection-start-line="833" selection-start-column="11" selection-end-line="833" selection-end-column="17" />
+          <caret line="834" column="17" lean-forward="false" selection-start-line="834" selection-start-column="11" selection-end-line="834" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/Comparator/ClassifiersComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/put/cs/idss/ml/weka/CompareClassifiers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#5388#5389#0" expanded="true" />
+            <element signature="e#5448#5449#0" expanded="true" />
           </folding>
         </state>
       </provider>

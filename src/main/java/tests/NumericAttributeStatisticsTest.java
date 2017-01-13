@@ -3,9 +3,9 @@ package tests;
 import org.assertj.core.data.Offset;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import put.cs.idss.ml.weka.AttributeStatistics;
+import put.cs.idss.ml.weka.AttributeStattistics.AttributeStatistics;
 import put.cs.idss.ml.weka.Experiment;
-import put.cs.idss.ml.weka.NumericAttributeStatistics;
+import put.cs.idss.ml.weka.AttributeStattistics.NumericAttributeStatistics;
 import weka.core.Attribute;
 import weka.core.Instances;
 

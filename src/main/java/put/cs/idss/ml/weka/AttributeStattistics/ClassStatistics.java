@@ -1,4 +1,4 @@
-package put.cs.idss.ml.weka;
+package put.cs.idss.ml.weka.AttributeStattistics;
 
 import weka.core.Attribute;
 import weka.core.AttributeStats;
@@ -10,17 +10,13 @@ import java.util.stream.IntStream;
 /**
  * Created by Rafal on 12.01.2017.
  */
-public class NominalAttributeStatistic implements AttributeStatistics {
-
-    private double classValue;
+public class ClassStatistics implements AttributeStatistics {
     private Attribute attribute;
     private Instances instances;
 
     private double[] statistics;
 
-    public NominalAttributeStatistic(int classValue, Attribute attribute, Instances instances){
-        this.classValue = classValue;
-
+    public ClassStatistics( Attribute attribute, Instances instances){
         this.attribute = attribute;
         this.instances = instances;
     }
@@ -31,11 +27,6 @@ public class NominalAttributeStatistic implements AttributeStatistics {
         int distinctValuesCount = attributeStats.distinctCount;
 
         double[] attributeValues = instances.attributeToDoubleArray(attribute.index());
-        double[] classValues = instances.attributeToDoubleArray(instances.classIndex());
-
-        double classValueCount = Arrays.stream(classValues)
-                .filter(value -> value == classValue)
-                .count();
 
         double[] distinctValues = Arrays.stream(attributeValues)
                 .distinct()
@@ -46,18 +37,14 @@ public class NominalAttributeStatistic implements AttributeStatistics {
 
         for (int i = 0; i< distinctValuesCount ; i++){
             int finalI = i;
-            statistics[i] = IntStream.range(0, classValues.length)
-                    .filter(index -> classValues[index] == classValue)
+            statistics[i] = (double) IntStream.range(0, attributeValues.length)
                     .filter(index -> attributeValues[index] == distinctValues[finalI])
-                    .count() / classValueCount;
+                    .count() / allValuesCount;
         }
     }
 
-
     public double[] getStatistics()
     {
-        if(statistics == null)
-            calculate();
         return statistics;
     }
 }

@@ -1,0 +1,9 @@
+Classifier: NaiveBayesClassifier
+samples, 0/1 loss, squared
+19, 1.0, NaN
+39, 1.0, NaN
+97, 0.0, 0.0
+117, 0.0, 0.0
+156, 0.0, 0.0
+175, 0.0, 0.0
+195, 0.0, 0.0
